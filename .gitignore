@@ -1,0 +1,32 @@
+# Build outputs
+/build/
+/out/
+/bin/
+/obj/
+/Debug/
+/Release/
+
+# Visual Studio generated files
+/.vs/
+*.VC.db
+*.opendb
+*.user
+*.suo
+ipch/
+
+# Intermediate and log files
+*.obj
+*.tlog
+*.log
+*.ilk
+*.pdb
+*.idb
+*.pch
+
+# MASM artifacts
+*.lst
+
+# OS generated files
+Thumbs.db
+desktop.ini
+
