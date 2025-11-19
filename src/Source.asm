@@ -7,6 +7,23 @@ DeleteFileA PROTO,
 GetFileAttributesA PROTO,
     lpFileName:PTR BYTE
 
+CreateFileA PROTO,
+    lpFileName:PTR BYTE, dwDesiredAccess:DWORD, dwShareMode:DWORD,
+    lpSecurityAttributes:DWORD, dwCreationDisposition:DWORD,
+    dwFlagsAndAttributes:DWORD, hTemplateFile:DWORD
+
+WriteFile PROTO,
+    hFile:DWORD, lpBuffer:PTR BYTE, nNumberOfBytesToWrite:DWORD,
+    lpNumberOfBytesWritten:PTR DWORD, lpOverlapped:DWORD
+
+ReadFile PROTO,
+    hFile:DWORD, lpBuffer:PTR BYTE, nNumberOfBytesToRead:DWORD,
+    lpNumberOfBytesRead:PTR DWORD, lpOverlapped:DWORD
+
+CloseHandle PROTO, hObject:DWORD
+
+GetLocalTime PROTO, lpSystemTime:PTR SYSTEMTIME
+
 .data
     prompt BYTE "myShell> ", 0
     inputBuffer BYTE 128 DUP(0)
