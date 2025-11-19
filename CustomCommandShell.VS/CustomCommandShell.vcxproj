@@ -27,7 +27,7 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{704c3df4-e601-4235-984a-347343b75a15}</ProjectGuid>
-    <RootNamespace>AssemblyLabTerminalProject</RootNamespace>
+    <RootNamespace>CustomCommandShell</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

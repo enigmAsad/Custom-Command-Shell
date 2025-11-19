@@ -7,7 +7,7 @@
 /Release/
 
 # Visual Studio generated files
-/.vs/
+.vs/
 *.VC.db
 *.opendb
 *.user

@@ -6,7 +6,7 @@ A MASM-based command-line shell that relies on the Irvine32 library to provide b
 
 ```
 Custom-Command-Shell/
-├── Assembly_LabTerminalProject/   # Visual Studio solution and project files
+├── CustomCommandShell.VS/        # Visual Studio solution and project files
 ├── src/                          # MASM source code
 │   └── Source.asm
 ├── docs/                         # Documentation assets
@@ -26,7 +26,7 @@ Custom-Command-Shell/
 From a Developer PowerShell for VS terminal:
 
 ```
-msbuild .\Assembly_LabTerminalProject\Assembly_LabTerminalProject.sln ^
+msbuild .\CustomCommandShell.VS\CustomCommandShell.sln ^
   /p:Configuration=Debug /p:Platform=Win32
 ```
 
@@ -37,7 +37,7 @@ Build artifacts are written to `build\<Platform>\<Configuration>\`.
 After a successful build, launch the executable:
 
 ```
-.\build\Win32\Debug\Assembly_LabTerminalProject.exe
+.\build\Win32\Debug\CustomCommandShell.exe
 ```
 
 Adjust the configuration/platform in the path if you build a different target.

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assembly_LabTerminalProject", "Assembly_LabTerminalProject.vcxproj", "{704C3DF4-E601-4235-984A-347343B75A15}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomCommandShell", "CustomCommandShell.vcxproj", "{704C3DF4-E601-4235-984A-347343B75A15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
